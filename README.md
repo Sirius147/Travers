@@ -66,7 +66,8 @@ cd Travers
 ```
 ### 2. 환경 설정
 
-H2 Database는 기본적으로 설정되어 있으며, src/main/resources/application.properties에서 확인 가능합니다.
+H2 Database 설치 후, 접속 경로를 설정하여 연결합니다.
+application.yaml 파일에 명시된 경로와 정보를 활용하면 좋습니다.
 
 
 ### 3. 실행
