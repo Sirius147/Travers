@@ -1,4 +1,5 @@
-''' @Entity
+''' 
+@Entity
 @Table(name = "app_user")
 @Data
 @NoArgsConstructor
@@ -27,4 +28,5 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<TravelRecord> travelRecords;
 
-}'''
+}
+'''
