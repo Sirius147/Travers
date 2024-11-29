@@ -1,4 +1,4 @@
-''' 
+```
 @Entity
 @Table(name = "app_user")
 @Data
@@ -29,4 +29,4 @@ public class User {
     private List<TravelRecord> travelRecords;
 
 }
-'''
+```
